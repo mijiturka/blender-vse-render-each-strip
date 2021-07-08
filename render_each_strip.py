@@ -1,9 +1,7 @@
 import bpy
 
-description = 'Render each strip to a separate file'
-
 bl_info = {
-    "name": 'You gotta be joking',
+    "name": 'Render each strip to a separate file',
     "blender": (2, 93, 0),
     "category": "Sequencer",
 }
@@ -11,9 +9,9 @@ bl_info = {
 addon_keymaps = []
 
 class RenderEachStrip(bpy.types.Operator):
-    '''You gotta be joking'''
+    '''Render each strip to a separate file'''
     bl_idname = 'sequencer.render_each_strip'
-    bl_label = 'You gotta be joking'
+    bl_label = 'Render each strip to a separate file'
     bl_options = {'REGISTER'}
 
     def execute(self, context):
